@@ -100,7 +100,7 @@ export default function App() {
             (sec) => (
               <a
                 key={sec}
-                href={`#${sec}`}
+                href={`/${sec}`}
                 className="hover:text-yellow-400 transition text-sm md:text-base"
               >
                 {sec.toUpperCase()}
